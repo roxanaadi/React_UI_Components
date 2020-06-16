@@ -27,7 +27,7 @@ class App extends Component {
             <li>Number: 123456</li>
         </DropdownMenu>
         <DropdownMenu title="Newsletter">
-             blabla 
+            <li> blabla </li>
         </DropdownMenu>
 
       </div>

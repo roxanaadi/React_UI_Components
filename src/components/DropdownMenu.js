@@ -52,8 +52,8 @@ class DropdownMenu extends Component {
             <span> {this.props.title}</span> 
 
                  <ul style = {menuStyle} className="dropdown">
-                    <li> {this.props.children} </li>
-                </ul> 
+                     {this.props.children} 
+                 </ul> 
                 
             </div>
 
