@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  background-color: rgba(169, 182, 199, 0.76);
+  width: 90%;
+  margin: auto;
+}
