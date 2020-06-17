@@ -1,0 +1,19 @@
+.sliderContainer {
+    margin: 65px 0 25px 35px;
+}
+
+.slider {
+    width: 30%;
+}
+
+.minMaxValues {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 31%;
+}
+
+.sliderValue {
+    margin-top: 15px;
+    font-size: 18px;
+}

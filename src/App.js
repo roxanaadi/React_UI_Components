@@ -4,6 +4,8 @@ import DropdownMenu from './components/DropdownMenu';
 import './components/DropdownMenu.css';
 import CollapsibleAccordion from './components/CollapsibleAccordion';
 import './components/CollapsibleAccordion.css';
+import RangeSlider from './components/RangeSlider';
+import './components/RangeSlider.css';
 
 class App extends Component {
   render () {
@@ -44,7 +46,7 @@ class App extends Component {
         <CollapsibleAccordion title="Accordion 2">
             <h3> Section 2 - #Random Text Generated</h3>
             <p>
-            Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call
+             Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call
              them eat face. Age lived smile six defer bed their few.
              Had admitting concluded too behaviour him she. Of death to or to being other. 
             </p>
@@ -52,12 +54,14 @@ class App extends Component {
         <CollapsibleAccordion title="Accordion 3">
             <h3> Section 3 - #Random Text Generated</h3>
             <p>
-            Ecstatic advanced and procured civility not absolute put continue. Overcame breeding or my concerns
+             Ecstatic advanced and procured civility not absolute put continue. Overcame breeding or my concerns
              removing desirous so absolute. My melancholy unpleasing imprudence considered in advantages so impression. 
              Almost unable put piqued talked likely houses her met. Met any nor may through resolve entered. An mr
              cause tried oh do shade happy.  
             </p>
-        </CollapsibleAccordion>     
+        </CollapsibleAccordion> 
+
+        <RangeSlider/>
 
       </div>
     );
