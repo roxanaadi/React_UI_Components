@@ -1,8 +1,8 @@
 .popover {
 	position: relative;
     display: inline-block;
-    margin: 35px 0;
-    margin-left: 10%;
+    margin: 35px 0 15px 0;
+    margin-left: 6%;
 }
 
 .popoverClickText {
