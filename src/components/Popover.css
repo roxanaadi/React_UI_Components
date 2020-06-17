@@ -1,0 +1,35 @@
+.popover {
+	position: relative;
+    display: inline-block;
+    margin: 35px 0;
+    margin-left: 10%;
+}
+
+.popoverClickText {
+	font-size: 1.2rem;
+	border-bottom: 1px dotted black;
+	margin-bottom: 2%;
+	cursor: pointer;
+}
+
+.popoverContent {
+	/* display: none; */
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5%;
+	width: 140%;
+	left: calc(50% - 70%);
+	top: 100%;
+	background-color: white;
+	text-align: center;
+}
+
+
+.popoverContent > h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    text-align: center;
+    
+}
+
