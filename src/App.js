@@ -6,6 +6,7 @@ import CollapsibleAccordion from './components/CollapsibleAccordion';
 import './components/CollapsibleAccordion.css';
 import RangeSlider from './components/RangeSlider';
 import './components/RangeSlider.css';
+import Popover from './components/Popover';
 
 class App extends Component {
   render () {
@@ -60,6 +61,14 @@ class App extends Component {
              cause tried oh do shade happy.  
             </p>
         </CollapsibleAccordion> 
+
+        <Popover title="Some text you can click on.">
+            <h4>Title</h4>
+            <p>This is a popover. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra
+            magna ac. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
+            </p>
+        </Popover>
 
         <RangeSlider/>
 
