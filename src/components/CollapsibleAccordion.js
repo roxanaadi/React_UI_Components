@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './CollapsibleAccordion.css';
 
 // Collapsible Accordion 
-class Tabs extends Component {
+class CollapsibleAccordion extends Component {
 
     constructor() {
         super()
@@ -42,4 +42,4 @@ class Tabs extends Component {
   
 }
 
-export default Tabs;
+export default CollapsibleAccordion;
