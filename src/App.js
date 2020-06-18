@@ -8,7 +8,12 @@ import RangeSlider from './components/RangeSlider';
 import './components/RangeSlider.css';
 import Popover from './components/Popover';
 import Modal from './components/Modal';
-import './components/Modal.css'
+import './components/Modal.css';
+import Tabs from './components/Tabs';
+import './components/Tabs.css';
+import TabsContainer from './components/TabsContainer';
+import Tabs_UI from './components/Tabs_UI';
+import './components/Tabs_UI.css';
 
 class App extends Component {
   render () {
@@ -76,6 +81,8 @@ class App extends Component {
         <RangeSlider/>
 
         <Modal/>
+
+        <Tabs_UI/>
 
       </div>
     );
