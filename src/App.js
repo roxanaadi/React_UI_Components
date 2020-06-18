@@ -7,8 +7,14 @@ import './components/CollapsibleAccordion.css';
 import RangeSlider from './components/RangeSlider';
 import './components/RangeSlider.css';
 import Popover from './components/Popover';
+import Modal from './components/Modal';
 
 class App extends Component {
+
+  state = {
+    isok: true
+  }
+
   render () {
 
     return (
@@ -71,6 +77,8 @@ class App extends Component {
         </Popover>
 
         <RangeSlider/>
+
+        <Modal isok= {this.state.isok}/>
 
       </div>
     );
