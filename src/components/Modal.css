@@ -1,0 +1,53 @@
+.openButton {
+	background-color: rgba(113, 157, 196);
+	margin: 10px 10px 10px 25px;
+	padding: 10px;
+	border: 1px solid black;
+	transition-duration: 0.4s;
+}
+
+.openButton:hover {
+	background-color: rgb(87, 147, 201);
+	cursor: pointer;
+}
+
+.myModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modalContent {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding: 10px;
+    width: 70%;
+    border-radius: 15px;
+}
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.modalContent > h3 {
+   padding: 10px 26px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+
+.closeButton {
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+
