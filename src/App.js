@@ -13,6 +13,8 @@ class App extends Component {
 
     return (
       <div className="App">
+
+        <h3 className="title">Dropdown Menu</h3>
         
         <DropdownMenu title="HOME">
             <li>#Home</li>
@@ -34,6 +36,8 @@ class App extends Component {
         <DropdownMenu title="Newsletter">
             <li> blabla </li>
         </DropdownMenu>
+
+        <h3 className="title">Collapsible Accordion</h3>
 
         <CollapsibleAccordion title="Accordion 1">
             <h3> Section 1 - #Random Text Generated</h3>
@@ -62,6 +66,8 @@ class App extends Component {
             </p>
         </CollapsibleAccordion> 
 
+        <h3 className="title">Popover</h3>
+
         <Popover title="Some text you can click on.">
             <h4>Title</h4>
             <p>This is a popover. Lorem ipsum dolor sit amet, consectetur 
@@ -69,6 +75,8 @@ class App extends Component {
             magna ac. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
             </p>
         </Popover>
+
+        <h3 className="title">RangeSlider</h3>
 
         <RangeSlider/>
 
